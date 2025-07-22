@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="comfyui_frontend_package",
-    version=os.getenv("COMFYUI_FRONTEND_VERSION") or "0.1.0",
+    version=os.getenv("COMFYUI_FRONTEND_VERSION") or "1.24.4",
     packages=find_packages(),
     include_package_data=True,
     install_requires=[],
