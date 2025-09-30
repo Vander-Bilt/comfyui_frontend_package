@@ -1,0 +1,65 @@
+/*! tailwindcss v4.1.12 | MIT License | https://tailwindcss.com */
+.task-card-ok[data-v-73d74a7a] {
+  right: calc(var(--spacing, .25rem) * -4);
+  bottom: calc(var(--spacing, .25rem) * -4);
+  color: var(--color-green-500, oklch(72.3% .219 149.579));
+  opacity: 1;
+  transition-property: opacity;
+  transition-timing-function: var(--tw-ease, var(--default-transition-timing-function, cubic-bezier(.4, 0, .2, 1)));
+  transition-duration: var(--tw-duration, var(--default-transition-duration, .15s));
+  text-shadow: .25rem 0 .5rem #000;
+  z-index: 10;
+  grid-area: 1 / 1 / -1 / -1;
+  font-size: 4rem;
+  position: absolute;
+}
+.p-card[data-v-73d74a7a] {
+  transition-property: opacity;
+  transition-timing-function: var(--tw-ease, var(--default-transition-timing-function, cubic-bezier(.4, 0, .2, 1)));
+  transition-duration: var(--tw-duration, var(--default-transition-duration, .15s));
+  --p-card-background: var(--p-button-secondary-background);
+  opacity: .9;
+}
+.p-card.opacity-65[data-v-73d74a7a] {
+  opacity: .4;
+}
+.p-card[data-v-73d74a7a]:hover {
+  opacity: 1;
+}
+[data-v-73d74a7a] .p-card-header {
+  z-index: 0;
+}
+[data-v-73d74a7a] .p-card-body {
+  z-index: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.task-div > i[data-v-73d74a7a] {
+  pointer-events: none;
+}
+.task-div:hover > i[data-v-73d74a7a] {
+  opacity: .2;
+}
+/*! tailwindcss v4.1.12 | MIT License | https://tailwindcss.com */
+[data-v-02be539c] .p-tag {
+  --p-tag-gap: .375rem;
+}
+.backspan[data-v-02be539c]:before {
+  margin: calc(var(--spacing, .25rem) * 0);
+  color: var(--color-muted, var(--p-text-muted-color));
+  speak: none;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  opacity: .02;
+  z-index: 0;
+  font-family: primeicons;
+  font-size: min(14rem, 90vw);
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+}

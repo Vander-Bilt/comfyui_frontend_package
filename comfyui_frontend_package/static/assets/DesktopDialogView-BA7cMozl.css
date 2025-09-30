@@ -1,0 +1,22 @@
+/*! tailwindcss v4.1.12 | MIT License | https://tailwindcss.com */
+.p-button-secondary[data-v-6a7f4119] {
+  --tw-border-style: none;
+  background-color: var(--color-neutral-600, oklch(43.9% 0 0));
+  color: var(--color-white, #fff);
+  border-style: none;
+}
+.p-button-secondary[data-v-6a7f4119]:hover {
+  background-color: var(--color-neutral-550, #636363);
+}
+.p-button-secondary[data-v-6a7f4119]:active {
+  background-color: var(--color-neutral-500, oklch(55.6% 0 0));
+}
+.p-button-danger[data-v-6a7f4119] {
+  background-color: var(--color-coral-red-600, #973a40);
+}
+.p-button-danger[data-v-6a7f4119]:hover {
+  background-color: var(--color-coral-red-500, #c53f49);
+}
+.p-button-danger[data-v-6a7f4119]:active {
+  background-color: var(--color-coral-red-400, #dd424e);
+}
